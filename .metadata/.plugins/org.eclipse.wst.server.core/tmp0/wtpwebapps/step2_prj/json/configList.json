@@ -1,0 +1,35 @@
+{
+	"total": 2,
+	"rows": [
+		{
+			"searchValue": null,
+			"createBy": "admin",
+			"updateBy": "ry",
+			"remark": "默认 skin-default、蓝色 skin-blue、黄色 skin-yellow",
+			"configId": 1,
+			"configName": "主框架页-默认皮肤样式名称",
+			"configKey": "sys.index.skinName",
+			"configValue": "skin-default",
+			"configType": "Y",
+			"createTimeStr": "2018-03-16",
+			"createDateTimeStr": "2018-03-16 11:33:00",
+			"updateTimeStr": "2018-03-16",
+			"updateDateTimeStr": "2018-03-16 11:33:00"
+		},
+		{
+			"searchValue": null,
+			"createBy": "admin",
+			"updateBy": "ry",
+			"remark": "初始化密码 123456",
+			"configId": 2,
+			"configName": "用户管理-账号初始密码",
+			"configKey": "sys.user.initPassword",
+			"configValue": "123456",
+			"configType": "Y",
+			"createTimeStr": "2018-03-16",
+			"createDateTimeStr": "2018-03-16 11:33:00",
+			"updateTimeStr": "2018-03-16",
+			"updateDateTimeStr": "2018-03-16 11:33:00"
+		}
+	]
+}

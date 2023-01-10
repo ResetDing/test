@@ -1,0 +1,42 @@
+ /*菜单首页样式开始==============================================*/
+
+.index .media {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.index .media button {
+    height: 100px;
+    width: 150px;
+}
+
+.index .media .media-right {
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.index .loginTime {
+    font-size: 15px;
+    color: #1E9FFF;
+    line-height: 17px;
+}
+
+.index span {
+    font-size: 25px;
+    display: block;
+    height: 34px;
+}
+
+.index cite {
+    font-style: normal;
+}
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #000;
+}
+
+ /*菜单首页样式开始==============================================*/
+ 

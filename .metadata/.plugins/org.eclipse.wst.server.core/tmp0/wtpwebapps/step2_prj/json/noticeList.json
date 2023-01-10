@@ -1,0 +1,35 @@
+{
+	"total": 2,
+	"rows": [
+		{
+			"searchValue": null,
+			"createBy": "admin",
+			"updateBy": "ry",
+			"remark": "管理员",
+			"noticeId": 1,
+			"noticeTitle": "温馨提醒：2018-07-01 若依新版本发布啦",
+			"noticeType": "2",
+			"noticeContent": "新版本内容",
+			"status": "0",
+			"createTimeStr": "2018-03-16",
+			"createDateTimeStr": "2018-03-16 11:33:00",
+			"updateTimeStr": "2018-03-16",
+			"updateDateTimeStr": "2018-03-16 11:33:00"
+		},
+		{
+			"searchValue": null,
+			"createBy": "admin",
+			"updateBy": "ry",
+			"remark": "管理员",
+			"noticeId": 2,
+			"noticeTitle": "维护通知：2018-07-01 若依系统凌晨维护",
+			"noticeType": "1",
+			"noticeContent": "维护内容",
+			"status": "0",
+			"createTimeStr": "2018-03-16",
+			"createDateTimeStr": "2018-03-16 11:33:00",
+			"updateTimeStr": "2018-03-16",
+			"updateDateTimeStr": "2018-03-16 11:33:00"
+		}
+	]
+}

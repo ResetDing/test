@@ -1,0 +1,17 @@
+Info 0    [19:20:8.11] Format host information updated
+Info 1    [19:20:8.15] reload projects.
+Info 2    [19:20:8.15] Structure before ensureProjectForOpenFiles:
+Info 3    [19:20:8.15] Structure after ensureProjectForOpenFiles:
+Info 4    [19:20:8.15] Host file extension mappings updated
+Info 5    [19:20:11.201] Search path: d:/1实训/卡子门二阶段项目/二阶段项目/随堂代码/step2_prj/WebContent
+Info 6    [19:20:11.210] For info: d:/1实训/卡子门二阶段项目/二阶段项目/随堂代码/step2_prj/WebContent/login.html :: No config files found.
+Info 7    [19:20:11.214] Loading global plugin @angular/language-service
+Info 8    [19:20:11.215] Enabling plugin @angular/language-service from candidate paths: C:/Program Files/eclipse-committers-2019-12-R-win32-x86_64/eclipse/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/typescript/lib/tsserverlibrary.js/../../..,C:\Program Files\eclipse-committers-2019-12-R-win32-x86_64\eclipse\plugins\org.eclipse.wildwebdeveloper_0.5.2.201911072316\language-servers\node_modules\@angular\language-service
+Info 9    [19:20:11.216] Loading @angular/language-service from C:/Program Files/eclipse-committers-2019-12-R-win32-x86_64/eclipse/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/typescript/lib/tsserverlibrary.js/../../.. (resolved to C:/Program Files/eclipse-committers-2019-12-R-win32-x86_64/eclipse/plugins/org.eclipse.wildwebdeveloper_0.5.2.201911072316/language-servers/node_modules/node_modules)
+Info 10   [19:20:11.465] Plugin validation succeded
+Info 11   [19:20:11.469] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [19:20:12.869] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 1399.7984000444412ms
+Info 13   [19:20:12.869] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 14   [19:20:12.869] 	Files (6)
+
+Info 15   [19:20:12.869] -----------------------------------------------

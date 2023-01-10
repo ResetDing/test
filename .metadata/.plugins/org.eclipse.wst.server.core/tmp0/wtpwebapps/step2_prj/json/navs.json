@@ -1,0 +1,125 @@
+{
+	"contentManagement": [
+		{
+			"title": "文章列表",
+			"icon": "fa-list-alt",
+			"href": "bt.html",
+			"spread": false
+		},
+		
+		{
+			"title": "标签管理",
+			"icon": "fa-picture-o",
+			"href": "page/img/images.html",
+			"spread": false
+		},
+		{
+			"title": "类型管理",
+			"icon": "fa-picture-o",
+			"href": "page/img/images.html",
+			"spread": false
+		},
+		{
+			"title": "图片管理",
+			"icon": "fa-picture-o",
+			"href": "page/img/images.html",
+			"spread": false
+		},
+		{
+			"title": "其他页面",
+			"icon": "fa-pagelines",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "404页面",
+					"icon": "fa-flag-o",
+					"href": "page/404.html",
+					"spread": false
+				},
+				{
+					"title": "登录",
+					"icon": "fa-sign-in",
+					"href": "login.html",
+					"spread": false,
+					"target": "_blank"
+				}
+			]
+		}
+	],
+	"memberCenter": [
+		{
+			"title": "用户中心",
+			"icon": "fa-user",
+			"href": "page/user/userList.html",
+			"spread": false
+		}
+	],
+	"systemeSttings": [
+		{
+			"title": "系统参数",
+			"icon": "fa-cog",
+			"href": "page/systemSetting/basicParameter.html",
+			"spread": false
+		},{
+			"title": "系统日志",
+			"icon": "icon-log",
+			"href": "page/systemSetting/logs.html",
+			"spread": false,
+			"children": [
+				{
+					"title": "登录日志",
+					"icon": "fa-flag-o",
+					"href": "xx.html",
+					"spread": false
+				},
+				{
+					"title": "操作日志",
+					"icon": "fa-sign-in",
+					"href": "xxx.html",
+					"spread": false,
+					"target": "_blank"
+				}
+			]
+			
+		},{
+			"title": "公告管理",
+			"icon": "fa-cog",
+			"href": "page/systemSetting/basicParameter.html",
+			"spread": false
+		}
+		,{
+			"title": "广告管理",
+			"icon": "fa-cog",
+			"href": "page/systemSetting/basicParameter.html",
+			"spread": false
+		}
+		,{
+			"title": "数组监控",
+			"icon": "fa-cog",
+			"href": "page/systemSetting/basicParameter.html",
+			"spread": false
+		}
+	],
+	"permissionManagement": [
+		{
+			"title": "用户管理",
+			"icon": "icon-mokuai",
+			"href": "page/doc/addressDoc.html",
+			"spread": false
+		},{
+			"title": "角色管理",
+			"icon": "icon-mokuai",
+			"href": "page/doc/addressDoc.html",
+			"spread": false
+		},{
+			"title": "资源管理",
+			"icon": "icon-mokuai",
+			"href": "page/doc/addressDoc.html",
+			"spread": false
+		}
+		
+	]
+}
+
+

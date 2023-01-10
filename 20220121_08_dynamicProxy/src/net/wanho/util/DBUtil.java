@@ -1,0 +1,92 @@
+package net.wanho.util;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+import javax.sql.DataSource;
+
+import org.apache.commons.dbcp.BasicDataSourceFactory;
+/**
+ * 对于数据库连接的管理、资源释放
+ * @author liuke
+ *
+ */
+public class DBUtil {
+	
+	private static ThreadLocal<Connection> threadLocal = new ThreadLocal<>();
+
+	private static DataSource dataSource;
+	
+	static {
+		try {
+			InputStream is = DBUtil.class.getClassLoader().getResourceAsStream("jdbc.properties");
+			Properties prop = new Properties();
+			prop.load(is);
+			dataSource = BasicDataSourceFactory.createDataSource(prop);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * 获取连接
+	 * @return
+	 */
+	public static Connection getConnection() {
+		try {
+			Connection connection = threadLocal.get();
+			if (connection == null) {
+				connection = dataSource.getConnection();
+				threadLocal.set(connection);
+			}
+			System.out.println("DBUtil.thread:" + Thread.currentThread().hashCode());
+			return connection;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public static void close(Connection con) {
+		try {
+			if(con != null && con.getAutoCommit()) {
+				con.close();
+				threadLocal.remove();
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void close(Connection con, Statement st) {
+		try {
+			if(st != null) {
+				st.close();
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		close(con);
+	}
+	
+	public static void close(Connection con, Statement st, ResultSet rs) {
+		try {
+			if (rs != null) {
+				rs.close();
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		close(con, st);
+	}
+}

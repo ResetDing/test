@@ -1,0 +1,458 @@
+[
+	{
+		"name": "系统管理",
+		"checked": false,
+		"pId": 0,
+		"id": 1
+	},
+	{
+		"name": "系统监控",
+		"checked": false,
+		"pId": 0,
+		"id": 2
+	},
+	{
+		"name": "系统工具",
+		"checked": false,
+		"pId": 0,
+		"id": 3
+	},
+	{
+		"name": "用户管理",
+		"checked": false,
+		"pId": 1,
+		"id": 100
+	},
+	{
+		"name": "角色管理",
+		"checked": false,
+		"pId": 1,
+		"id": 101
+	},
+	{
+		"name": "菜单管理",
+		"checked": false,
+		"pId": 1,
+		"id": 102
+	},
+	{
+		"name": "部门管理",
+		"checked": false,
+		"pId": 1,
+		"id": 103
+	},
+	{
+		"name": "岗位管理",
+		"checked": false,
+		"pId": 1,
+		"id": 104
+	},
+	{
+		"name": "字典管理",
+		"checked": false,
+		"pId": 1,
+		"id": 105
+	},
+	{
+		"name": "参数设置",
+		"checked": false,
+		"pId": 1,
+		"id": 106
+	},
+	{
+		"name": "通知公告",
+		"checked": false,
+		"pId": 1,
+		"id": 107
+	},
+	{
+		"name": "操作日志",
+		"checked": false,
+		"pId": 2,
+		"id": 108
+	},
+	{
+		"name": "登录日志",
+		"checked": false,
+		"pId": 2,
+		"id": 109
+	},
+	{
+		"name": "在线用户",
+		"checked": false,
+		"pId": 2,
+		"id": 110
+	},
+	{
+		"name": "定时任务",
+		"checked": false,
+		"pId": 2,
+		"id": 111
+	},
+	{
+		"name": "数据监控",
+		"checked": false,
+		"pId": 2,
+		"id": 112
+	},
+	{
+		"name": "表单构建",
+		"checked": false,
+		"pId": 3,
+		"id": 113
+	},
+	{
+		"name": "代码生成",
+		"checked": false,
+		"pId": 3,
+		"id": 114
+	},
+	{
+		"name": "系统接口",
+		"checked": false,
+		"pId": 3,
+		"id": 115
+	},
+	{
+		"name": "用户查询",
+		"checked": false,
+		"pId": 100,
+		"id": 1000
+	},
+	{
+		"name": "用户新增",
+		"checked": false,
+		"pId": 100,
+		"id": 1001
+	},
+	{
+		"name": "用户修改",
+		"checked": false,
+		"pId": 100,
+		"id": 1002
+	},
+	{
+		"name": "用户删除",
+		"checked": false,
+		"pId": 100,
+		"id": 1003
+	},
+	{
+		"name": "用户保存",
+		"checked": false,
+		"pId": 100,
+		"id": 1004
+	},
+	{
+		"name": "重置密码",
+		"checked": false,
+		"pId": 100,
+		"id": 1005
+	},
+	{
+		"name": "角色查询",
+		"checked": false,
+		"pId": 101,
+		"id": 1006
+	},
+	{
+		"name": "角色新增",
+		"checked": false,
+		"pId": 101,
+		"id": 1007
+	},
+	{
+		"name": "角色修改",
+		"checked": false,
+		"pId": 101,
+		"id": 1008
+	},
+	{
+		"name": "角色删除",
+		"checked": false,
+		"pId": 101,
+		"id": 1009
+	},
+	{
+		"name": "角色保存",
+		"checked": false,
+		"pId": 101,
+		"id": 1010
+	},
+	{
+		"name": "菜单查询",
+		"checked": false,
+		"pId": 102,
+		"id": 1011
+	},
+	{
+		"name": "菜单新增",
+		"checked": false,
+		"pId": 102,
+		"id": 1012
+	},
+	{
+		"name": "菜单修改",
+		"checked": false,
+		"pId": 102,
+		"id": 1013
+	},
+	{
+		"name": "菜单删除",
+		"checked": false,
+		"pId": 102,
+		"id": 1014
+	},
+	{
+		"name": "菜单保存",
+		"checked": false,
+		"pId": 102,
+		"id": 1015
+	},
+	{
+		"name": "部门查询",
+		"checked": false,
+		"pId": 103,
+		"id": 1016
+	},
+	{
+		"name": "部门新增",
+		"checked": false,
+		"pId": 103,
+		"id": 1017
+	},
+	{
+		"name": "部门修改",
+		"checked": false,
+		"pId": 103,
+		"id": 1018
+	},
+	{
+		"name": "部门删除",
+		"checked": false,
+		"pId": 103,
+		"id": 1019
+	},
+	{
+		"name": "部门保存",
+		"checked": false,
+		"pId": 103,
+		"id": 1020
+	},
+	{
+		"name": "岗位查询",
+		"checked": false,
+		"pId": 104,
+		"id": 1021
+	},
+	{
+		"name": "岗位新增",
+		"checked": false,
+		"pId": 104,
+		"id": 1022
+	},
+	{
+		"name": "岗位修改",
+		"checked": false,
+		"pId": 104,
+		"id": 1023
+	},
+	{
+		"name": "岗位删除",
+		"checked": false,
+		"pId": 104,
+		"id": 1024
+	},
+	{
+		"name": "岗位保存",
+		"checked": false,
+		"pId": 104,
+		"id": 1025
+	},
+	{
+		"name": "字典查询",
+		"checked": false,
+		"pId": 105,
+		"id": 1026
+	},
+	{
+		"name": "字典新增",
+		"checked": false,
+		"pId": 105,
+		"id": 1027
+	},
+	{
+		"name": "字典修改",
+		"checked": false,
+		"pId": 105,
+		"id": 1028
+	},
+	{
+		"name": "字典删除",
+		"checked": false,
+		"pId": 105,
+		"id": 1029
+	},
+	{
+		"name": "字典保存",
+		"checked": false,
+		"pId": 105,
+		"id": 1030
+	},
+	{
+		"name": "参数查询",
+		"checked": false,
+		"pId": 106,
+		"id": 1031
+	},
+	{
+		"name": "参数新增",
+		"checked": false,
+		"pId": 106,
+		"id": 1032
+	},
+	{
+		"name": "参数修改",
+		"checked": false,
+		"pId": 106,
+		"id": 1033
+	},
+	{
+		"name": "参数删除",
+		"checked": false,
+		"pId": 106,
+		"id": 1034
+	},
+	{
+		"name": "参数保存",
+		"checked": false,
+		"pId": 106,
+		"id": 1035
+	},
+	{
+		"name": "公告查询",
+		"checked": false,
+		"pId": 107,
+		"id": 1036
+	},
+	{
+		"name": "公告新增",
+		"checked": false,
+		"pId": 107,
+		"id": 1037
+	},
+	{
+		"name": "公告修改",
+		"checked": false,
+		"pId": 107,
+		"id": 1038
+	},
+	{
+		"name": "公告删除",
+		"checked": false,
+		"pId": 107,
+		"id": 1039
+	},
+	{
+		"name": "公告保存",
+		"checked": false,
+		"pId": 107,
+		"id": 1040
+	},
+	{
+		"name": "操作查询",
+		"checked": false,
+		"pId": 108,
+		"id": 1041
+	},
+	{
+		"name": "操作删除",
+		"checked": false,
+		"pId": 108,
+		"id": 1042
+	},
+	{
+		"name": "详细信息",
+		"checked": false,
+		"pId": 108,
+		"id": 1043
+	},
+	{
+		"name": "登录查询",
+		"checked": false,
+		"pId": 109,
+		"id": 1044
+	},
+	{
+		"name": "登录删除",
+		"checked": false,
+		"pId": 109,
+		"id": 1045
+	},
+	{
+		"name": "在线查询",
+		"checked": false,
+		"pId": 110,
+		"id": 1046
+	},
+	{
+		"name": "批量强退",
+		"checked": false,
+		"pId": 110,
+		"id": 1047
+	},
+	{
+		"name": "单条强退",
+		"checked": false,
+		"pId": 110,
+		"id": 1048
+	},
+	{
+		"name": "任务查询",
+		"checked": false,
+		"pId": 111,
+		"id": 1049
+	},
+	{
+		"name": "任务新增",
+		"checked": false,
+		"pId": 111,
+		"id": 1050
+	},
+	{
+		"name": "任务修改",
+		"checked": false,
+		"pId": 111,
+		"id": 1051
+	},
+	{
+		"name": "任务删除",
+		"checked": false,
+		"pId": 111,
+		"id": 1052
+	},
+	{
+		"name": "任务保存",
+		"checked": false,
+		"pId": 111,
+		"id": 1053
+	},
+	{
+		"name": "状态修改",
+		"checked": false,
+		"pId": 111,
+		"id": 1054
+	},
+	{
+		"name": "生成查询",
+		"checked": false,
+		"pId": 114,
+		"id": 1055
+	},
+	{
+		"name": "生成代码",
+		"checked": false,
+		"pId": 114,
+		"id": 1056
+	}
+]

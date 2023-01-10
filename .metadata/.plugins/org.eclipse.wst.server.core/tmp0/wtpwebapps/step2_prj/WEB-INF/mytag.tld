@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<!-- 版本 -->
+	<tlib-version>1.0</tlib-version>
+	<!-- 标签前辍 -->
+	<short-name>wanho</short-name>
+	<!-- 标签uri -->
+	<uri>http://www.wanho.net/mytag/core_rt</uri>
+
+	<!-- 标签描述 -->
+	<tag>
+		<!-- 标签名 -->
+		<name>permission</name>
+		<!-- 标签实现类 -->
+		<tag-class>net.wanho.tag.ButtonPermission</tag-class>
+		<!-- 标签体的内容 -->
+		<body-content>tagdependent</body-content>
+		
+		<!-- 标签属性 -->
+		<attribute>
+			<!-- 属性名称 -->
+			<name>permCondition</name>
+			<!-- 是否必须 -->
+			<required>true</required>
+			<!-- 是否支持表达式 -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<!-- 函数  -->
+	<function>
+		<!-- 函数名 -->
+		<name>hasPermission</name>
+		<!-- 函数实现类 -->
+		<function-class>net.wanho.tag.PermissionFunction</function-class>
+		<!-- 函数签名 -->
+		<function-signature>java.lang.Boolean hasPermission(java.lang.String,java.util.List)</function-signature>
+	</function>
+
+</taglib>
+
+
+
+
+

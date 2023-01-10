@@ -1,0 +1,39 @@
+{
+	"total": 2,
+	"rows": [
+		{
+			"searchValue": null,
+			"createBy": null,
+			"updateBy": null,
+			"remark": "管理员",
+			"roleId": 1,
+			"roleName": "管理员",
+			"roleKey": "admin",
+			"roleSort": "1",
+			"status": "0",
+			"flag": false,
+			"menuIds": null,
+			"createTimeStr": "2018-03-16",
+			"createDateTimeStr": "2018-03-16 11:33:00",
+			"updateTimeStr": "",
+			"updateDateTimeStr": ""
+		},
+		{
+			"searchValue": null,
+			"createBy": null,
+			"updateBy": null,
+			"remark": "普通角色",
+			"roleId": 2,
+			"roleName": "普通角色",
+			"roleKey": "common",
+			"roleSort": "2",
+			"status": "0",
+			"flag": false,
+			"menuIds": null,
+			"createTimeStr": "2018-03-16",
+			"createDateTimeStr": "2018-03-16 11:33:00",
+			"updateTimeStr": "",
+			"updateDateTimeStr": ""
+		}
+	]
+}
